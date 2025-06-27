@@ -1,0 +1,75 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments (any name)
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Data files (don't track raw data — too large or sensitive)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.tsv
+*.xml
+*.parquet
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.sav
+*.pt
+*.onnx
+
+# Google Colab or Drive mounts
+drive/
+gdrive/
+*.gdoc
+*.gsheet
+
+# Output/log files
+*.log
+*.out
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Database or binary dumps
+*.db
+*.sqlite
+*.sqlite3
+
+# Env config or secrets (if any)
+.env
+.env.*
+credentials.json
+token.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
